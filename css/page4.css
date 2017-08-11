@@ -21,10 +21,10 @@
 }
 .item4 .slide .container>.pic>li{
     float: left;
-    width: 325px;
+    width: 280px;
     height:200px;
     margin:0 15px 15px 0;
-    background: blue;
+    /*background: blue;*/
     display: none;
 }
 .item4 .slide .container>.pic>li>a{
@@ -50,6 +50,7 @@
     left:0;
     opacity: 0;
     transition: all 0.5s ease;
+    font-size: 20px;
 }
 .item4 .slide .container>.pic>li>a>.mask>p{
     font-size: 28px;

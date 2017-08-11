@@ -5,14 +5,21 @@
     position: absolute;
     top:0;
     left:0;
-    background: #002839;
     text-align: center;
     z-index:10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
 }
 .item2 .controdution>.jianjie{
     width: 80%;
-    margin:80px auto 0;
+    margin:auto;
     padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .item2 .controdution>.jianjie>h2{
@@ -21,7 +28,7 @@
 .item2 .controdution>.jianjie>.img{
     width: 100px;
     height:100px;
-    margin:30px auto;
+    margin:15px 0;
 }
 .item2 .controdution>.jianjie>.img>img{
     width: 100px;

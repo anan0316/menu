@@ -100,7 +100,6 @@ $(function () {
                 $('.pure').show();
 
 
-                console.log(anchorLink)
                 switch (anchorLink){
                     case 'page1':
                         $('.content').show();
